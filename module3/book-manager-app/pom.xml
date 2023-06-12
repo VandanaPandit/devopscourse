@@ -50,14 +50,14 @@
 
 	<profiles>
 		<profile>
-			<id>cloudadvocate-book-manager-repository</id>
+			<id>devops-book-manager</id>
 			<activation>
 				<activeByDefault>true</activeByDefault>
 			</activation>
 			<repositories>
 				<repository>
-					<id>cloudadvocate-book-manager-repository</id>
-					<url>https://cloudadvocate-363267848264.d.codeartifact.ap-south-1.amazonaws.com/maven/book-manager-repository/</url>
+					<id>devops-book-manager/id>
+					<url>https://devops-323098797568.d.codeartifact.ap-south-1.amazonaws.com/maven/book-manager/</url>
 				</repository>
 			</repositories>
 		</profile>
@@ -65,9 +65,9 @@
 
 	<distributionManagement>
 		<repository>
-			<id>cloudadvocate-book-manager-repository</id>
-			<name>cloudadvocate-book-manager-repository</name>
-			<url>https://cloudadvocate-363267848264.d.codeartifact.ap-south-1.amazonaws.com/maven/book-manager-repository/</url>
+			<id>devops-book-manager</id>
+			<name>devops-book-manager</name>
+			<url>https://devops-323098797568.d.codeartifact.ap-south-1.amazonaws.com/maven/book-manager/</url>
 		</repository>
 	</distributionManagement>
 
